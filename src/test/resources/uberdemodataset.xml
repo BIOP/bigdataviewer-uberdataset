@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpimData version="0.2">
+  <BasePath type="relative">.</BasePath>
+  <SequenceDescription>
+    <ImageLoader format="spimreconstruction.biop_uberimageloader">
+      <imagedirectory type="relative">.</imagedirectory>
+      <files_number>2</files_number>
+      <filename_0>ConfocalSeries.xml</filename_0>
+      <filename_1>Mitosis.xml</filename_1>
+    </ImageLoader>
+    <ViewSetups>
+      <ViewSetup>
+        <id>0</id>
+        <name>channel 1</name>
+        <size>400 400 25</size>
+        <voxelSize>
+          <unit>µm</unit>
+          <size>0.05445500181716341 0.05445500181716341 0.05445500181716341</size>
+        </voxelSize>
+        <attributes>
+          <illumination>-1</illumination>
+          <channel>1</channel>
+          <tile>0</tile>
+          <angle>-1</angle>
+        </attributes>
+      </ViewSetup>
+      <ViewSetup>
+        <id>1</id>
+        <name>channel 2</name>
+        <size>400 400 25</size>
+        <voxelSize>
+          <unit>µm</unit>
+          <size>0.05445500181716341 0.05445500181716341 0.05445500181716341</size>
+        </voxelSize>
+        <attributes>
+          <illumination>-1</illumination>
+          <channel>2</channel>
+          <tile>0</tile>
+          <angle>-1</angle>
+        </attributes>
+      </ViewSetup>
+      <ViewSetup>
+        <id>2</id>
+        <name>channel 1</name>
+        <size>171 196 5</size>
+        <voxelSize>
+          <unit>µm</unit>
+          <size>0.08850000022125 0.08850000022125 1.0</size>
+        </voxelSize>
+        <attributes>
+          <illumination>-1</illumination>
+          <channel>3</channel>
+          <tile>0</tile>
+          <angle>-1</angle>
+        </attributes>
+      </ViewSetup>
+      <ViewSetup>
+        <id>3</id>
+        <name>channel 2</name>
+        <size>171 196 5</size>
+        <voxelSize>
+          <unit>µm</unit>
+          <size>0.08850000022125 0.08850000022125 1.0</size>
+        </voxelSize>
+        <attributes>
+          <illumination>-1</illumination>
+          <channel>4</channel>
+          <tile>0</tile>
+          <angle>-1</angle>
+        </attributes>
+      </ViewSetup>
+      <Attributes name="illumination">
+        <Illumination>
+          <id>-1</id>
+          <name>-1</name>
+        </Illumination>
+      </Attributes>
+      <Attributes name="channel">
+        <Channel>
+          <id>1</id>
+          <name>1</name>
+        </Channel>
+        <Channel>
+          <id>2</id>
+          <name>2</name>
+        </Channel>
+        <Channel>
+          <id>3</id>
+          <name>3</name>
+        </Channel>
+        <Channel>
+          <id>4</id>
+          <name>4</name>
+        </Channel>
+      </Attributes>
+      <Attributes name="tile">
+        <Tile>
+          <id>0</id>
+          <name>0</name>
+        </Tile>
+      </Attributes>
+      <Attributes name="angle">
+        <Angle>
+          <id>-1</id>
+          <name>-1</name>
+        </Angle>
+      </Attributes>
+    </ViewSetups>
+    <Timepoints type="range">
+      <first>0</first>
+      <last>50</last>
+    </Timepoints>
+    <MissingViews>
+      <MissingView timepoint="1" setup="0" />
+      <MissingView timepoint="1" setup="1" />
+      <MissingView timepoint="2" setup="0" />
+      <MissingView timepoint="2" setup="1" />
+      <MissingView timepoint="3" setup="0" />
+      <MissingView timepoint="3" setup="1" />
+      <MissingView timepoint="4" setup="0" />
+      <MissingView timepoint="4" setup="1" />
+      <MissingView timepoint="5" setup="0" />
+      <MissingView timepoint="5" setup="1" />
+      <MissingView timepoint="6" setup="0" />
+      <MissingView timepoint="6" setup="1" />
+      <MissingView timepoint="7" setup="0" />
+      <MissingView timepoint="7" setup="1" />
+      <MissingView timepoint="8" setup="0" />
+      <MissingView timepoint="8" setup="1" />
+      <MissingView timepoint="9" setup="0" />
+      <MissingView timepoint="9" setup="1" />
+      <MissingView timepoint="10" setup="0" />
+      <MissingView timepoint="10" setup="1" />
+      <MissingView timepoint="11" setup="0" />
+      <MissingView timepoint="11" setup="1" />
+      <MissingView timepoint="12" setup="0" />
+      <MissingView timepoint="12" setup="1" />
+      <MissingView timepoint="13" setup="0" />
+      <MissingView timepoint="13" setup="1" />
+      <MissingView timepoint="14" setup="0" />
+      <MissingView timepoint="14" setup="1" />
+      <MissingView timepoint="15" setup="0" />
+      <MissingView timepoint="15" setup="1" />
+      <MissingView timepoint="16" setup="0" />
+      <MissingView timepoint="16" setup="1" />
+      <MissingView timepoint="17" setup="0" />
+      <MissingView timepoint="17" setup="1" />
+      <MissingView timepoint="18" setup="0" />
+      <MissingView timepoint="18" setup="1" />
+      <MissingView timepoint="19" setup="0" />
+      <MissingView timepoint="19" setup="1" />
+      <MissingView timepoint="20" setup="0" />
+      <MissingView timepoint="20" setup="1" />
+      <MissingView timepoint="21" setup="0" />
+      <MissingView timepoint="21" setup="1" />
+      <MissingView timepoint="22" setup="0" />
+      <MissingView timepoint="22" setup="1" />
+      <MissingView timepoint="23" setup="0" />
+      <MissingView timepoint="23" setup="1" />
+      <MissingView timepoint="24" setup="0" />
+      <MissingView timepoint="24" setup="1" />
+      <MissingView timepoint="25" setup="0" />
+      <MissingView timepoint="25" setup="1" />
+      <MissingView timepoint="26" setup="0" />
+      <MissingView timepoint="26" setup="1" />
+      <MissingView timepoint="27" setup="0" />
+      <MissingView timepoint="27" setup="1" />
+      <MissingView timepoint="28" setup="0" />
+      <MissingView timepoint="28" setup="1" />
+      <MissingView timepoint="29" setup="0" />
+      <MissingView timepoint="29" setup="1" />
+      <MissingView timepoint="30" setup="0" />
+      <MissingView timepoint="30" setup="1" />
+      <MissingView timepoint="31" setup="0" />
+      <MissingView timepoint="31" setup="1" />
+      <MissingView timepoint="32" setup="0" />
+      <MissingView timepoint="32" setup="1" />
+      <MissingView timepoint="33" setup="0" />
+      <MissingView timepoint="33" setup="1" />
+      <MissingView timepoint="34" setup="0" />
+      <MissingView timepoint="34" setup="1" />
+      <MissingView timepoint="35" setup="0" />
+      <MissingView timepoint="35" setup="1" />
+      <MissingView timepoint="36" setup="0" />
+      <MissingView timepoint="36" setup="1" />
+      <MissingView timepoint="37" setup="0" />
+      <MissingView timepoint="37" setup="1" />
+      <MissingView timepoint="38" setup="0" />
+      <MissingView timepoint="38" setup="1" />
+      <MissingView timepoint="39" setup="0" />
+      <MissingView timepoint="39" setup="1" />
+      <MissingView timepoint="40" setup="0" />
+      <MissingView timepoint="40" setup="1" />
+      <MissingView timepoint="41" setup="0" />
+      <MissingView timepoint="41" setup="1" />
+      <MissingView timepoint="42" setup="0" />
+      <MissingView timepoint="42" setup="1" />
+      <MissingView timepoint="43" setup="0" />
+      <MissingView timepoint="43" setup="1" />
+      <MissingView timepoint="44" setup="0" />
+      <MissingView timepoint="44" setup="1" />
+      <MissingView timepoint="45" setup="0" />
+      <MissingView timepoint="45" setup="1" />
+      <MissingView timepoint="46" setup="0" />
+      <MissingView timepoint="46" setup="1" />
+      <MissingView timepoint="47" setup="0" />
+      <MissingView timepoint="47" setup="1" />
+      <MissingView timepoint="48" setup="0" />
+      <MissingView timepoint="48" setup="1" />
+      <MissingView timepoint="49" setup="0" />
+      <MissingView timepoint="49" setup="1" />
+      <MissingView timepoint="50" setup="0" />
+      <MissingView timepoint="50" setup="1" />
+    </MissingViews>
+  </SequenceDescription>
+  <ViewRegistrations>
+    <ViewRegistration timepoint="0" setup="0">
+      <ViewTransform type="affine">
+        <affine>0.05445500181716341 0.0 0.0 0.0 0.0 0.05445500181716341 0.0 0.0 0.0 0.0 0.05445500181716341 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="0" setup="1">
+      <ViewTransform type="affine">
+        <affine>0.05445500181716341 0.0 0.0 0.0 0.0 0.05445500181716341 0.0 0.0 0.0 0.0 0.05445500181716341 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="0" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="0" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="1" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="1" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="2" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="2" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="3" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="3" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="4" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="4" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="5" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="5" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="6" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="6" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="7" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="7" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="8" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="8" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="9" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="9" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="10" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="10" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="11" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="11" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="12" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="12" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="13" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="13" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="14" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="14" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="15" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="15" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="16" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="16" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="17" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="17" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="18" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="18" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="19" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="19" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="20" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="20" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="21" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="21" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="22" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="22" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="23" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="23" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="24" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="24" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="25" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="25" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="26" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="26" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="27" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="27" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="28" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="28" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="29" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="29" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="30" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="30" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="31" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="31" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="32" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="32" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="33" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="33" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="34" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="34" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="35" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="35" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="36" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="36" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="37" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="37" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="38" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="38" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="39" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="39" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="40" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="40" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="41" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="41" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="42" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="42" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="43" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="43" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="44" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="44" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="45" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="45" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="46" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="46" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="47" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="47" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="48" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="48" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="49" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="49" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="50" setup="2">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+    <ViewRegistration timepoint="50" setup="3">
+      <ViewTransform type="affine">
+        <affine>0.08850000022125 0.0 0.0 0.0 0.0 0.08850000022125 0.0 0.0 0.0 0.0 1.0 0.0</affine>
+      </ViewTransform>
+    </ViewRegistration>
+  </ViewRegistrations>
+</SpimData>
